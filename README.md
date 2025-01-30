@@ -1,4 +1,19 @@
 # dadoseanalytics
+```
+Projeto com a intenção de estudar SQL aplicada a dados & analytics usando:
+```
+- Python
+- MySQL
+- Docker
+- Git
+- Pyspark
+- Jupyter Notebook
+- Anaconda
+- VisualStudio Code
+- Poetry
+- Pyenv
+- Streamlit
+  
 ## Participações no projeto
 - Alessandro Oliveira
 - Yuri Marchiori
@@ -8,6 +23,10 @@
 - Leonardo Salvador
 - Leonardo
 - Ricardo
+- Jesse Jones
+- Josue
+- Matheus Borsato
+- Vinicius PG Lima
 
 ```sql
 -- Criação da tabela de Municípios
