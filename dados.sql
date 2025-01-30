@@ -1,15 +1,3 @@
-# dadoseanalytics
-## Participações no projeto
-- Alessandro Oliveira
-- Yuri Marchiori
-- Gustavo Dib
-- Pedro Dutra
-- Pedro Fernandes
-- Leonardo Salvador
-- Leonardo
-- Ricardo
-
-```sql
 -- Criação da tabela de Municípios
 CREATE TABLE municipios(
    id_municipio INT AUTO_INCREMENT PRIMARY KEY,
@@ -225,4 +213,3 @@ BEGIN
 END $$
  
 DELIMITER ;
- ```
