@@ -336,4 +336,4 @@ cursor.close()
 db_connection.close()
 
  ```
-> "O investimento que gera mais retorno e lucro o conhecimento"
+> "O investimento que gera mais retorno e lucro é o conhecimento"
