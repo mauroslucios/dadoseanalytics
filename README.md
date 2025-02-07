@@ -41,9 +41,9 @@ Ex
 |002      |Func 2    |34556974 23978695 |
 |003      |Func 3    |988236974|
 ## Formas Normais
-- 1ª FN
-- 2ª FN 
-- 3ª FN
+- 1ª FN Primeira forma normal
+- 2ª FN Segunda forma normal
+- 3ª FN Terceira forma normal
 
   
 ```sql
