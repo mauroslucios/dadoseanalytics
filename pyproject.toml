@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dados-e-analytics"
+version = "0.1.0"
+description = "estudos de dados para analytics"
+authors = ["maurosluciosprojetos <maurosluciosprojetos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+faker = "^35.0.0"
+mysql = "^0.0.3"
+mysql-connector-python = "^9.2.0"
+fake = "^0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

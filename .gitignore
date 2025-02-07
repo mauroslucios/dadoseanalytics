@@ -207,4 +207,47 @@ pyrightconfig.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,python
+
+*.pyc
+
+# Packages
+/dist/*
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache
+
+.DS_Store
+.idea/*
+.python-version
+.vscode/*
+
+/docs/site/*
+.mypy_cache
+
+.venv
+/poetry.toml
+
+INSERT INTO tb_medico.sql
+MySQL_Docker.session.sql
+dados_comentados.sql
+insert_medicos.sql
+insert_tabela_medico.sql
+insert_tabela_paciente.sql
+
+# Created by https://www.toptal.com/developers/gitignore/api/vagrant
+# Edit at https://www.toptal.com/developers/gitignore?templates=vagrant
+
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+Vagrantfile
+# End of https://www.toptal.com/developers/gitignore/api/vagrant
+insert_medicos_clinica.sql
+operacoes_table.sql
