@@ -21,9 +21,7 @@ Projeto com a intenção de estudar SQL aplicada a dados & analytics usando:
 - Pedro Fernandes
 - Leonardo Salvador
 - Josué
-
-- Vinicius PG Lima
-
+  
 ```sql
 -- Criação da tabela de Municípios
 CREATE TABLE municipios(
