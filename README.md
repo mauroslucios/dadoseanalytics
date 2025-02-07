@@ -21,6 +21,35 @@ Projeto com a intenção de estudar SQL aplicada a dados & analytics usando:
 - Pedro Fernandes
 - Leonardo Salvador
 - Josué
+
+## Normalização de banco de dados 
+```
+Normalização é uma séri de passos que se deve seguir em um projeto de banco de dados relacional, o qual permite um armazenamento consistente e um acesso eficiente as informações do banco de dados.
+```
+## Super chave
+``` 
+Uma super chave é qualquer conjunto de atributos contendo uma chave, seja ela primária ou candidata.
+```
+## Atributos Multivalorados
+```
+São atributos que podem conter mais de um valor para um mesmo registro:
+Ex
+```
+|Matricula| NomeFunc | Telefone|
+|---------|----------|---------|
+|001      |Func 1    |20130697 | 
+|         |          |98772369 |
+|---------|----------|---------|
+|002      |Func 2    |34556974 |
+|         |          |23978695 |
+|---------|----------|---------|
+|003      |Func 3    |988236974|
+|---------|----------|---------|  
+## Formas Normais
+- 1ª FN
+- 2ª FN 
+- 3ª FN
+
   
 ```sql
 -- Criação da tabela de Municípios
@@ -30,7 +59,8 @@ CREATE TABLE municipios(
    ENGINE=InnoDB DEFAULT CHARSET=utf8;
  
 -- Criação da tabela de Pacientes
-CREATE TABLE tb_pacientes (
+CREATE TABLE tb_
+pacientes (
     id_paciente INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(60) NOT NULL,
     idade INT NOT NULL CHECK (idade >= 0),  -- Corrigindo a referência
