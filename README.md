@@ -16,16 +16,12 @@ Projeto com a intenção de estudar SQL aplicada a dados & analytics usando:
   
 ## Participações no projeto
 - Alessandro Oliveira
-- Yuri Marchiori
 - Gustavo Dib
 - Pedro Dutra
 - Pedro Fernandes
 - Leonardo Salvador
-- Leonardo
-- Ricardo
-- Jesse Jones
-- Josue
-- Matheus Borsato
+- Josué
+
 - Vinicius PG Lima
 
 ```sql
