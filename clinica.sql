@@ -75,3 +75,70 @@ create table tb_consulta(
     status_consulta varchar(15) not null
 )engine=InnoDB;
 
+
+mysql> show tables;
++-------------------+
+| Tables_in_clinica |
++-------------------+
+| tb_consulta       |
+| tb_endereco       |
+| tb_especialidade  |
+| tb_medico         |
+| tb_paciente       |
+| tb_telefone       |
+| tb_tipo_endereco  |
+| tb_tipo_telefone  |
++-------------------+
+
+-- Modificar o collate das tabelas
+ALTER TABLE tb_consulta
+CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+ALTER TABLE tb_endereco
+CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+ALTER TABLE tb_especialidade
+CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+ALTER TABLE tb_medico
+CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+ALTER TABLE tb_paciente
+CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+ALTER TABLE tb_telefone
+CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+ALTER TABLE tb_tipo_endereco
+CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+ALTER TABLE tb_tipo_telefone
+CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci;
+
+-- Verificar o collate
+SELECT DEFAULT_CHARACTER_SET_NAME, DEFAULT_COLLATION_NAME
+FROM INFORMATION_SCHEMA.SCHEMATA
+WHERE SCHEMA_NAME = 'clinica';
+
+SELECT COLUMN_NAME, CHARACTER_SET_NAME, COLLATION_NAME
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_SCHEMA = 'clinica' AND TABLE_NAME = 'tb_consulta';
+
+
+-- Show create table
+SHOW CREATE TABLE nome_tabela;
+
+-- criando tabela com collate
+CREATE TABLE exemplo (
+    coluna1 VARCHAR(100) NOT NULL
+) ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+COLLATE=utf8mb4_unicode_ci;
