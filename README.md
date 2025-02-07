@@ -33,18 +33,26 @@ Uma super chave é qualquer conjunto de atributos contendo uma chave, seja ela p
 ## Atributos Multivalorados
 ```
 São atributos que podem conter mais de um valor para um mesmo registro:
-Ex
+Exemplo: telefone é um atributo multivalorado
 ```
 |Matricula| NomeFunc | Telefone|
 |---------|----------|---------|
 |001      |Func 1    |20130697 98772369 |
 |002      |Func 2    |34556974 23978695 |
 |003      |Func 3    |988236974|
+
+## Atributos Compostos
+```
+São atributos que podem ser divididos em vários atributos.
+Exemplo: Endereço(Rua + Bairro + Cidade + UF)
+Podem ser divididos em vários outros atributos.
+```
+
 ## Formas Normais
 - 1ª FN Primeira forma normal
 - 2ª FN Segunda forma normal
 - 3ª FN Terceira forma normal
-
+## Atributos Compostos
   
 ```sql
 -- Criação da tabela de Municípios
