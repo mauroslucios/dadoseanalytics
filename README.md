@@ -24,7 +24,7 @@ Projeto com a intenção de estudar SQL aplicada a dados & analytics usando:
 
 ## Normalização de banco de dados 
 ```
-Normalização é uma séri de passos que se deve seguir em um projeto de banco de dados relacional, o qual permite um armazenamento consistente e um acesso eficiente as informações do banco de dados.
+Normalização é uma série de passos que se deve seguir em um projeto de banco de dados relacional, o qual permite um armazenamento consistente e um acesso eficiente as informações do banco de dados.
 ```
 ## Super chave
 ``` 
